@@ -109,6 +109,7 @@ def calculates_results_stats(results_dic):
     results_stats_dic['pct_correct_dogs'] = pct_correct_dogs
     results_stats_dic['pct_correct_notdogs'] = pct_correct_notdogs
     results_stats_dic['pct_correct_breed'] = pct_correct_breed
+    results_stats_dic['pct_match'] = pct_match
     
     results_stats_dic['n_correct_dogs'] = n_correct_dogs
     results_stats_dic['n_correct_notdogs'] = n_correct_notdogs
